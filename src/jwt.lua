@@ -35,6 +35,7 @@ local function header(options)
       iss = options.iss,
       aud = options.aud,
       sub = options.sub,
+      kid = options.kid,
     }
   end
   return {
